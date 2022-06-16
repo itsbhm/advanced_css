@@ -4,4 +4,6 @@ npm init\
 npm install node-sass --save-dev \
 npm install jquery --save \
 npm uninstall jquery --safe \
-npm install live-server -g
+npm install live-server -g \
+npm run compile:sass \
+live-server
