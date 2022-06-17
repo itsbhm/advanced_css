@@ -4,7 +4,7 @@
   "description": "Advanced CSS Practice Files",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w --output-style compressed"
   },
   "author": "Shubham Vishwakarma",
   "license": "ISC",

@@ -6,4 +6,5 @@ npm install jquery --save \
 npm uninstall jquery --safe \
 npm install live-server -g \
 npm run compile:sass \
-live-server
+live-server \
+"compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w --output-style compressed"
